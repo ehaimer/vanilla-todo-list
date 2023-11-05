@@ -1,0 +1,93 @@
+#wrapper {
+  width: 85vw;
+  background-color: hsl(332, 87%, 61%);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 24px auto;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  border: 2px solid white;
+  background-color: hsl(265, 33%, 49%);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-right: 24px;
+}
+
+input {
+  font-size: 24px;
+  padding: 8px 8px;
+  outline: none;
+  width: 70%;
+  color: gray;
+}
+
+#add-button {
+  font-size: 24px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  background-color: hsl(265, 33%, 49%);
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px white solid;
+}
+
+#add-button:disabled {
+  background-color: revert;
+  cursor: default;
+}
+
+#top {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.delete-button {
+  background: none;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  height: 24px;
+  width: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+  transition: 0.5%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.delete-button:hover {
+  border-color: white;
+  transform: scale(1.2);
+}
+
+@media (min-width: 1280px) {
+  div {
+    width: 800px;
+  }
+}
