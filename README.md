@@ -1,6 +1,6 @@
 # Simple To-Do List Vanilla Javascript App
 
-<img src="https://raw.githubusercontent.com/ehaimer/vanilla-todo-list/main/vanillaTodo.png" alt="Todo App Image" style="width: 600px;" />
+<img src="https://raw.githubusercontent.com/ehaimer/vanilla-todo-list/main/vanillaTodo.png" alt="Todo App Image" style="width: 300px;" />
 
 ## Overview
 
